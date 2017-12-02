@@ -1,0 +1,13 @@
+html{
+	font-size: 62.5%;
+	color: #222;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
