@@ -1,13 +1,15 @@
 {
-  "name": "05-01",
+  "name": "three-stooges",
   "version": "1.0.0",
   "description": "three stooges",
   "main": "root.js",
+  "homepage": "https://buddedwater.github.io/three_stooges/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --env development",
     "build": "webpack -p",
-    "stats": "webpack --env production --profile --json > stats.json"
+    "stats": "webpack --env production --profile --json > stats.json",
+    "deploy": "npm run bulid&&master -d build"
   },
   "author": "",
   "license": "ISC",
