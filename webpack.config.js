@@ -24,8 +24,8 @@ module.exports = {
 		historyApiFallback : true
 	},
 	output: {
-		path: __dirname ,
-		publicPath: "/",
+		path: path.join(__dirname,'dist') ,
+		//publicPath: "./dist",
 		filename: "bundle.js"
 	}
 };

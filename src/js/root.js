@@ -8,9 +8,7 @@ export default class Root extends React.Component{
 	render(){
 		return(
 			<BrowserRouter>
-				<Switch>
-					<Route exact component={Index} path="/" />
-				</Switch>
+				<Route exact component={Index} path="/" />
 			</BrowserRouter>
 			)
 	}
