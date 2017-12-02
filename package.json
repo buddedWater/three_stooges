@@ -9,12 +9,12 @@
     "start": "webpack-dev-server --env development",
     "build": "webpack -p",
     "stats": "webpack --env production --profile --json > stats.json",
-    "deploy": "npm run bulid&&master -d build"
+    "deploy": "npm run build&&master -d build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antd": "^2.13.10",  
+    "antd": "^2.13.10",
     "fetch": "^1.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -24,19 +24,20 @@
     "react-touch-loader": "^1.1.2"
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.6.2",
-    "babili-webpack-plugin": "^0.1.2",
-    "less": "^2.7.3",
-    "less-loader": "^4.0.5",
-    "style-loader": "^0.19.0",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.6.2",
     "babel-plugin-react-html-attrs": "^2.1.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babelify": "^8.0.0",
-    "css-loader": "^0.28.7"
+    "babili-webpack-plugin": "^0.1.2",
+    "css-loader": "^0.28.7",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "master": "^1.0.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   }
 }
